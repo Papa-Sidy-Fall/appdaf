@@ -4,7 +4,6 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 use Cloudinary\Cloudinary;
 use Cloudinary\Configuration\Configuration;
-use Dotenv\Dotenv;
 
 $cloud = require __DIR__ . '/../app/config/cloudinary.php';
 
@@ -19,12 +18,15 @@ Configuration::instance([
 
 $cloudinary = new Cloudinary(Configuration::instance());
 
-$dotenv = Dotenv::createImmutable(__DIR__ . '/../');
-$dotenv->load();
+$password ='LR5SxrkbualE8lJPaErb3D35ePdemOOR';
+$host = 'dpg-d2102ommcj7s73e8qnog-a.oregon-postgres.render.com';
+$port = '5432';
+$driver = 'pgsql';
+$dbName = 'postgres_fybi';
+$user = 'postgres_fybi_user';
 
-$dsn = $_ENV['DSN'];
-$user = $_ENV['DB_USERNAME'];
-$password = $_ENV['DB_PASSWORD'];
+$dsn = "$driver:host=$host;port=$port;dbname=$dbName";
+
 
 try {
     echo "🔗 Connexion à la base...\n";
