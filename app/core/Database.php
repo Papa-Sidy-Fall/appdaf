@@ -19,7 +19,7 @@ class Database extends Singleton
             $dsn = DB_DRIVE . ':host=' . DB_HOST . ';port=' . DB_PORT . ';dbname=' . DB_NAME;
             $this->pdo = new PDO(
                 $dsn,
-                DB_USER,
+                DB_USERNAME,
                 DB_PASSWORD,
                 self::$configDefault
             );
