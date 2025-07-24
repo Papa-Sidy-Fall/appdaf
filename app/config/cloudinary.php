@@ -1,7 +1,7 @@
 <?php
 
 return [
- 'cloud_name' => 'druop2kj7',
- 'api_key' => '656553519925162',
- 'api_secret' => '6LqJX0dB8bztwuUF-y2Qs0JSG0E',
+ 'cloud_name' => 'dozivhehj',
+ 'api_key' => '787229729564796',
+ 'api_secret' => 'iplkKJBu1X59OPd51Q35iSF9HYM',
  ];

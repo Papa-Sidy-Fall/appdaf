@@ -1,6 +1,7 @@
 UID=1000
 GID=1000
-DB_DRIVE=pgsql
+
+DB_DRIVER=pgsql
 DB_HOST=db
 DB_PORT=5434
 PGPORT=5434
@@ -8,9 +9,8 @@ DB_NAME=appdaf
 DB_USERNAME=papasidy
 DB_USER=papasidy
 DB_PASSWORD=admin123
-PGADMIN_DEFAULT_EMAIL=admin@admin.com
-PGADMIN_DEFAULT_PASSWORD=admin123
-METHODE_INSTANCE_NAME=getInstance
 
 DSN="pgsql:host=db;dbname=appdaf;port=5434"
 
+PGADMIN_DEFAULT_EMAIL=admin@admin.com
+PGADMIN_DEFAULT_PASSWORD=admin123
