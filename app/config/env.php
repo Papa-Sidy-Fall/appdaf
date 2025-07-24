@@ -13,5 +13,8 @@ define('DB_USERNAME', $_ENV['DB_USERNAME']);
 define('DB_PASSWORD', $_ENV['DB_PASSWORD']);
 define('DB_NAME', $_ENV['DB_NAME']);
 define('METHODE_INSTANCE_NAME', $_ENV['METHODE_INSTANCE_NAME']);
+//j'ai ajouter ça pour railyway
+define('DATABASE_URL', $_ENV['DATABASE_URL']);
+
 
 

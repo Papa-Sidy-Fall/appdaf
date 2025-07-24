@@ -269,3 +269,19 @@ try {
 } catch (Exception $e) {
     echo "❌ Erreur : " . $e->getMessage() . "\n";
 }
+-----------------------------------
+deployement sur render
+
+# UID=1000
+# GID=1000
+DB_DRIVE=pgsql
+DB_HOST=dpg-d2102ommcj7s73e8qnog-a.oregon-postgres.render.com
+DB_PORT=5432
+# PGPORT=5434
+DB_NAME=postgres_fybi
+DB_USERNAME=postgres_fybi_user
+# DB_USER=papasidy
+DB_PASSWORD=LR5SxrkbualE8lJPaErb3D35ePdemOOR
+# PGADMIN_DEFAULT_EMAIL=admin@admin.com
+# PGADMIN_DEFAULT_PASSWORD=admin123
+METHODE_INSTANCE_NAME=getInstance
